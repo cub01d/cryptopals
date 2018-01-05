@@ -2,7 +2,7 @@
 
 For educational purposes only.
 
-##Completed challenges so far:
+## Completed challenges so far:
 ### Set 1: Basics
 1. [Convert hex to base64](./set1/hextob64.py)
 2. [Fixed XOR](./set1/fixedxor.py)
