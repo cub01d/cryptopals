@@ -8,10 +8,10 @@ For educational purposes only.
 2. [Fixed XOR](./set1/fixedxor.py)
 3. [Single-byte XOR cipher](./set1/singlebytexor.py)
 4. [Detect single-character XOR](./set1/detectscx.py)
+5. [Implement repeating-key XOR](./set1/repeatkeyxor.py)
 
 ## Challenges not yet complete:
 ### Set 1: Basics
-5. [Implement repeating-key XOR]()
 6. [Break repeating-key XOR]()
 7. [AES in ECB mode]()
 8. [Detect AES in ECB mode]()
