@@ -7,10 +7,10 @@ For educational purposes only.
 1. [Convert hex to base64](./set1/hextob64.py)
 2. [Fixed XOR](./set1/fixedxor.py)
 3. [Single-byte XOR cipher](./set1/singlebytexor.py)
+4. [Detect single-character XOR](./set1/detectscx.py)
 
 ## Challenges not yet complete:
 ### Set 1: Basics
-4. [Detect single-character XOR]()
 5. [Implement repeating-key XOR]()
 6. [Break repeating-key XOR]()
 7. [AES in ECB mode]()
