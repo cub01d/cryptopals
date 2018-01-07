@@ -1,3 +1,4 @@
+from string import printable
 def score(text):
     """
     Returns frequency analysis score for text.
@@ -5,7 +6,7 @@ def score(text):
     """
 
     freqs = {
-            ' ': 12,
+            ' ': 15,
             # lowercase
             'e': 12.70,
             't': 9.06,
@@ -66,6 +67,9 @@ def score(text):
     for letter in text:
         if letter in freqs:
             s += freqs[letter]
+        elif letter not in printable:
+            s -= 100
+
     return s
 
 def decrypt(c):
@@ -82,9 +86,3 @@ def decrypt(c):
 
 print decrypt("1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736")
 # output: "Cooking MC's like a pound of bacon"
-
-
-
-
-
-
